@@ -1,0 +1,10 @@
+.loginpage
+{
+	background:url(../../../assets/images/loginbg.jpg);
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+	padding-top:150px;
+	padding-bottom:120px;
+	
+}

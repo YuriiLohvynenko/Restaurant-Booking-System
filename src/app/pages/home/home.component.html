@@ -1,0 +1,1011 @@
+<app-header id="home"></app-header>
+<main>
+<div class="homesearch d-table">
+<div class="d-table-cell align-middle">
+<div class="container">
+<h1>
+Food delivery from the best restaurants near you. <span>Order now!</span>
+</h1>
+<div class="searchfrom">
+<form>
+<div class="searchicon"><i class="fa fa-search"></i></div>
+<input type="text" placeholder="Search Food or Restaurant..."/>
+<button type="submit">Search</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="homenav">
+<div class="container">
+<div class="slider">
+ <owl-carousel [options]="homenavOptions"  [items]="foodTypes" [carouselClasses]="['owl-theme home-nav', 'sliding']"   >
+     <div   class="item" *ngFor="let foodType of foodTypes;let i = index">
+
+        <div class="mainmenu-title"><a href="#" class="active"><span><img src="../../../assets/images/{{ foodType.icon }}" class="w-100" alt="{{ foodType.name }}"/></span>{{ foodType.name }}</a></div>
+      
+     </div>
+    </owl-carousel>
+    </div>
+</div>        
+</div>
+<div class="recent-order section">
+<div class="container">
+<h2 class="head center">
+<div class="bgicon"><img src="../../../assets/images/location.png" class="w-100" /></div>
+<div class="name">Recent Orders</div>
+</h2>
+<div class="slider outside">
+<owl-carousel [options]="recentOptions"  [carouselClasses]="['owl-theme recent-order', 'sliding']"   >
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-9 col-md-9"><div class="title">Rice with young green
+peas</div></div>
+       <div class="col-3 col-md-3 text-right"><div class="price">$230</div></div>
+     </div>
+     <div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div>
+     <div class="row">
+     <div class="col-6 col-md-6 pr-0"><div class="border-btn"><a href="#">Order again</a></div></div>
+     <div class="col-6 col-md-6 pr-0 text-right"><ul>
+<li><img src="../../../assets/images/productfeature1.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature2.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature3.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature4.png" class="w-100"/></li>
+</ul></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-9 col-md-9"><div class="title">Rice with young green
+peas</div></div>
+       <div class="col-3 col-md-3 text-right"><div class="price">$230</div></div>
+     </div>
+     <div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div>
+     <div class="row">
+     <div class="col-6 col-md-6 pr-0"><div class="border-btn"><a href="#">Order again</a></div></div>
+     <div class="col-6 col-md-6 pr-0 text-right"><ul>
+<li><img src="../../../assets/images/productfeature1.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature2.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature3.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature4.png" class="w-100"/></li>
+</ul></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-9 col-md-9"><div class="title">Rice with young green
+peas</div></div>
+       <div class="col-3 col-md-3 text-right"><div class="price">$230</div></div>
+     </div>
+     <div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div>
+     <div class="row">
+     <div class="col-6 col-md-6 pr-0"><div class="border-btn"><a href="#">Order again</a></div></div>
+     <div class="col-6 col-md-6 pr-0 text-right"><ul>
+<li><img src="../../../assets/images/productfeature1.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature2.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature3.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature4.png" class="w-100"/></li>
+</ul></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-9 col-md-9"><div class="title">Rice with young green
+peas</div></div>
+       <div class="col-3 col-md-3 text-right"><div class="price">$230</div></div>
+     </div>
+     <div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div>
+     <div class="row">
+     <div class="col-6 col-md-6 pr-0"><div class="border-btn"><a href="#">Order again</a></div></div>
+     <div class="col-6 col-md-6 pr-0 text-right"><ul>
+<li><img src="../../../assets/images/productfeature1.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature2.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature3.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature4.png" class="w-100"/></li>
+</ul></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-9 col-md-9"><div class="title">Rice with young green
+peas</div></div>
+       <div class="col-3 col-md-3 text-right"><div class="price">$230</div></div>
+     </div>
+     <div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div>
+     <div class="row">
+     <div class="col-6 col-md-6 pr-0"><div class="border-btn"><a href="#">Order again</a></div></div>
+     <div class="col-6 col-md-6 pr-0 text-right"><ul>
+<li><img src="../../../assets/images/productfeature1.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature2.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature3.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature4.png" class="w-100"/></li>
+</ul></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-9 col-md-9"><div class="title">Rice with young green
+peas</div></div>
+       <div class="col-3 col-md-3 text-right"><div class="price">$230</div></div>
+     </div>
+     <div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div>
+     <div class="row">
+     <div class="col-6 col-md-6 pr-0"><div class="border-btn"><a href="#">Order again</a></div></div>
+     <div class="col-6 col-md-6 pr-0 text-right"><ul>
+<li><img src="../../../assets/images/productfeature1.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature2.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature3.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature4.png" class="w-100"/></li>
+</ul></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-9 col-md-9"><div class="title">Rice with young green
+peas</div></div>
+       <div class="col-3 col-md-3 text-right"><div class="price">$230</div></div>
+     </div>
+     <div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div>
+     <div class="row">
+     <div class="col-6 col-md-6 pr-0"><div class="border-btn"><a href="#">Order again</a></div></div>
+     <div class="col-6 col-md-6 pr-0 text-right"><ul>
+<li><img src="../../../assets/images/productfeature1.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature2.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature3.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature4.png" class="w-100"/></li>
+</ul></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-9 col-md-9"><div class="title">Rice with young green
+peas</div></div>
+       <div class="col-3 col-md-3 text-right"><div class="price">$230</div></div>
+     </div>
+     <div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div>
+     <div class="row">
+     <div class="col-6 col-md-6 pr-0"><div class="border-btn"><a href="#">Order again</a></div></div>
+     <div class="col-6 col-md-6 pr-0 text-right"><ul>
+<li><img src="../../../assets/images/productfeature1.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature2.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature3.png" class="w-100"/></li>
+<li><img src="../../../assets/images/productfeature4.png" class="w-100"/></li>
+</ul></div>
+     </div>
+     </div>
+     </div>
+     </div>
+    </owl-carousel>
+</div>
+</div>
+</div>
+<div class="howitwork section">
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<h2 class="head">
+<div class="bgicon"><img src="../../../assets/images/location.png" class="w-100" /></div>
+<div class="name">How <br />it work</div>
+</h2>
+</div>
+<div class="col-md-8">
+<div class="image"><img src="../../../assets/images/workimage.png" class="w-100"/></div>
+<ul>
+<li>Find Restaurant</li>
+<li>Order Food</li>
+<li>Get Food</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="top-restaurents section">
+<div class="container">
+<h2 class="head center">
+<div class="bgicon"><img src="../../../assets/images/location.png" class="w-100" /></div>
+<div class="name">Top local restaurants</div>
+</h2>
+<div class="slider outside">
+<owl-carousel [options]="promotionsOptions"  [carouselClasses]="['owl-theme recent-order', 'sliding']"   >
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/promotion1.jpg" class="w-100"/>
+     <a class="like-btn active"><i class="fas fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-7 col-md-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-5 col-md-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/promotion1.jpg" class="w-100"/>
+     <a class="like-btn active"><i class="fas fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-7 col-md-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-5 col-md-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/promotion1.jpg" class="w-100"/>
+     <a class="like-btn active"><i class="fas fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-7 col-md-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-5 col-md-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/promotion1.jpg" class="w-100"/>
+     <a class="like-btn active"><i class="fas fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-7 col-md-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-5 col-md-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/promotion1.jpg" class="w-100"/>
+     <a class="like-btn active"><i class="fas fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-7 col-md-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-5 col-md-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/promotion1.jpg" class="w-100"/>
+     <a class="like-btn active"><i class="fas fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-7 col-md-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-5 col-md-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/promotion1.jpg" class="w-100"/>
+     <a class="like-btn active"><i class="fas fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-7 col-md-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-5 col-md-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/promotion1.jpg" class="w-100"/>
+     <a class="like-btn active"><i class="fas fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-7 col-md-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-5 col-md-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+     </div>
+    </owl-carousel>
+</div>
+</div>
+</div>
+<div class="promotions section">
+<div class="container">
+<h2 class="head center">
+<div class="bgicon"><img src="../../../assets/images/location.png" class="w-100" /></div>
+<div class="name">best promotions today</div>
+</h2>
+<div class="slider outside">
+<owl-carousel [options]="promotionsOptions"  [carouselClasses]="['owl-theme recent-order', 'sliding']"   >
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/promotion1.jpg" class="w-100"/>
+     <div class="off"><div class="number">20%</div>
+     <div class="text">OFF</div>
+     </div>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-7 col-md-7  pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-5 col-md-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/promotion1.jpg" class="w-100"/>
+     <div class="off"><div class="number">20%</div>
+     <div class="text">OFF</div>
+     </div>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-7 col-md-7  pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-5 col-md-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/promotion1.jpg" class="w-100"/>
+     <div class="off"><div class="number">20%</div>
+     <div class="text">OFF</div>
+     </div>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-7 col-md-7  pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-5 col-md-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/promotion1.jpg" class="w-100"/>
+     <div class="off"><div class="number">20%</div>
+     <div class="text">OFF</div>
+     </div>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-7 col-md-7  pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-5 col-md-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/promotion1.jpg" class="w-100"/>
+     <div class="off"><div class="number">20%</div>
+     <div class="text">OFF</div>
+     </div>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-7 col-md-7  pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-5 col-md-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/promotion1.jpg" class="w-100"/>
+     <div class="off"><div class="number">20%</div>
+     <div class="text">OFF</div>
+     </div>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-7 col-md-7  pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-5 col-md-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/promotion1.jpg" class="w-100"/>
+     <div class="off"><div class="number">20%</div>
+     <div class="text">OFF</div>
+     </div>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-7 col-md-7  pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-5 col-md-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+     <div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/promotion1.jpg" class="w-100"/>
+     <div class="off"><div class="number">20%</div>
+     <div class="text">OFF</div>
+     </div>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-7 col-md-7  pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-5 col-md-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+     </div>
+    </owl-carousel>
+</div>
+</div>
+</div>
+<div class="our-restaurents section">
+<div class="container">
+<h2 class="head center">
+<div class="bgicon"><img src="../../../assets/images/location.png" class="w-100" /></div>
+<div class="name">Our Restaurents</div>
+</h2>
+<div class="row">
+<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+<div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <a class="like-btn active"><i class="fas fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-md-7 col-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-md-5 col-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+<div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <a class="like-btn"><i class="far fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-md-8 col-8"><div class="title">MC Donald</div></div>
+       <div class="col-md-4 col-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-md-7 col-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-md-5 col-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+<div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <a class="like-btn active"><i class="fas fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-md-7 col-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-md-5 col-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+<div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <a class="like-btn"><i class="far fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-md-8 col-8"><div class="title">MC Donald</div></div>
+       <div class="col-md-4 col-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-md-7 col-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-md-5 col-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+<div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <a class="like-btn active"><i class="fas fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-md-7 col-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-md-5 col-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+<div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <a class="like-btn"><i class="far fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-md-8 col-8"><div class="title">MC Donald</div></div>
+       <div class="col-md-4 col-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-md-7 col-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-md-5 col-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+<div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <a class="like-btn active"><i class="fas fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-md-7 col-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-md-5 col-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+<div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <a class="like-btn"><i class="far fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-md-8 col-8"><div class="title">MC Donald</div></div>
+       <div class="col-md-4 col-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-md-7 col-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-md-5 col-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+<div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <a class="like-btn active"><i class="fas fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-md-7 col-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-md-5 col-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+<div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <a class="like-btn"><i class="far fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-md-8 col-8"><div class="title">MC Donald</div></div>
+       <div class="col-md-4 col-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-md-7 col-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-md-5 col-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+<div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <a class="like-btn active"><i class="fas fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-8 col-md-8"><div class="title">MC Donald</div></div>
+       <div class="col-4 col-md-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-md-7 col-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-md-5 col-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+</div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+<div class="image-box">
+     <div class="img">
+     <img src="../../../assets/images/recentimage1.jpg" class="w-100"/>
+     <a class="like-btn"><i class="far fa-heart"></i></a>
+     <div class="time"><div class="number">30</div>
+     <div class="text">MIN</div>
+     </div>
+     </div>
+     <div class="info">
+     <div class="row">
+     <div class="col-md-8 col-8"><div class="title">MC Donald</div></div>
+       <div class="col-md-4 col-4 text-right"><div class="rating"><i class="fas fa-star"></i> 3.0</div></div>
+     </div>
+     <div class="tags">Fastfood, Meals, hot Snacks</div>
+     
+     <div class="row">
+     <div class="col-md-7 col-7 pr-0"><div class="free-btn"><div class="icon"><img src="../../../assets/images/motorbike.png" class="w-100"/></div> Free Delivery</div></div>
+     <div class="col-md-5 col-5 text-right pl-0"><div class="border-btn"><a href="#">see menu</a></div></div>
+     </div>
+     </div>
+     </div>
+</div>
+</div>
+<ul class="pagination">
+    <li class="page-item"><a class="page-link active" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">4</a></li>
+    <li class="page-item"><a class="page-link" href="#">5</a></li>
+  </ul>
+</div>
+</div>
+<div class="funfacts">
+<div class="container">
+<div class="row">
+<div class="col-4 col-md-4 col-lg-3">
+<div class="fact-box top"><div class="count">1.5M</div>
+<div class="label">RESTAURANTS</div>
+</div>
+<div class="fact-box bottom">
+<div class="count">120M</div>
+<div class="label">Foodies Every where</div>
+</div>
+</div>
+<div class="col-4 col-md-4 col-lg-6">
+<div class="logo">
+<img src="../../../assets/images/funfact-logo.png" class="w-100"/>
+</div>
+</div>
+<div class="col-4 col-md-4 col-lg-3">
+<div class="fact-box top"><div class="count">10M</div>
+<div class="label">REVIEWS</div>
+</div>
+<div class="fact-box bottom">
+<div class="count">20M</div>
+<div class="label">bookmarks</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<app-footer></app-footer>

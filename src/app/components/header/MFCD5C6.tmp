@@ -1,0 +1,31 @@
+import { Component, HostListener, Inject, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { DOCUMENT } from '@angular/common';
+
+@Component({
+  selector: 'app-header',
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.css']
+})
+export class HeaderComponent implements OnInit {
+  public href: string = "";
+  constructor(@Inject(DOCUMENT) private document: Document) { }
+  @HostListener('window:scroll', [])
+    onWindowScroll() {
+    if (document.body.scrollTop > 30 ||     
+    document.documentElement.scrollTop > 30) {
+      document.getElementById('header').classList.add('headerbg');
+    }
+	else
+	{
+	document.getElementById('header').classList.remove('headerbg');
+	}
+  }
+  filteropen()
+  {
+      document.getElementById('header').classList.toggle('filteropen');
+  }
+  ngOnInit(): void {
+  }
+
+}

@@ -1,0 +1,11 @@
+<div class="nav">
+<div class="container">
+ <owl-carousel [options]="topnavOptions"  [items]="foodTypes" [carouselClasses]="['owl-theme topnav', 'sliding']"   >
+     <div   class="item" *ngFor="let foodType of foodTypes;let i = index">
+
+        <div class="mainmenu-title"><a href="#"><span><img src="../../../assets/images/{{ foodType.icon }}" class="w-100" alt="{{ foodType.name }}"/></span>{{ foodType.name }}</a></div>
+      
+     </div>
+    </owl-carousel>
+</div>        
+</div>

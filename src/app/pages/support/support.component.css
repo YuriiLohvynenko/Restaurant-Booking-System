@@ -1,0 +1,35 @@
+.support .innerpagetitle
+{
+	background-image:url(../../../assets/images/supportbg.jpg);
+}
+
+.support .innerpagetitle form
+{
+	width:400px;
+	position:relative;
+	z-index:99;
+	margin:auto;
+	margin-top:30px;
+	position:relative;
+}
+.support .innerpagetitle form input
+{
+	height:50px;
+	background:#FFF;
+	border:0px;
+	font-size:14px;
+	padding:20px;
+	border-radius:5px;	
+	width:100%;
+	font-family: 'Muli', sans-serif;
+}
+.support .innerpagetitle form button
+{
+	position: absolute;
+	right: 7px;
+	border: 0px;
+	font-family: 'Muli', sans-serif;
+	color: #FFF !important;
+	top: 7px;
+	font-size: 14px;
+}

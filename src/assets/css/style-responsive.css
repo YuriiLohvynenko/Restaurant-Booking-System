@@ -1,0 +1,917 @@
+@media only screen and (min-width: 1400px) and (max-width: 1920px) {
+	.homesearch .searchfrom {
+    margin-left: 16%;
+}
+.homesearch h1 {
+    margin-left: 16%;
+}
+}
+
+/* laptops (portrait and landscape) ----------- */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+.career .about .right {
+    width: 580px;
+	top: 191px;
+}
+.riderbody.merchantbody .feature-2 .image {
+    right: 55px;
+}
+.riderbody.merchantbody .feature-2 {
+    margin-top: 110px;
+}
+.riderbody.merchantbody .feature-3 {
+    background-position: center center;
+}
+.foundation .help .image {
+    width: 76%;
+    left: -23%;
+}
+.press .top-news .box .info .title {
+    font-size: 16px;
+}
+.press .bg-image-bottom-text
+{
+	overflow:hidden;
+}
+.press .bg-image-bottom-text .image img
+{
+	width:auto !important;
+}
+.career .howwehire ul::before {
+    width: 680px;
+}
+.career .about .left
+{
+	padding-top:60px;
+}
+.career .about .left p {
+    font-size: 12px;
+}
+.slider.outside .owl-prev {
+    left: -35px;
+}
+.rewardpoint .image {
+    margin-left: 105px;
+}
+.rewardpoint .box.thirdbox {
+    margin-right: 20px;
+}
+.rewardpoint .box.thirdbox::before {
+	z-index:-9;
+}
+.checkout-process {
+    width: 500px;
+    margin-left: 100px;
+}
+.slider.outside .owl-next {
+    right: -35px;
+}
+.recent-order .image-box .info ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+	float:right;
+	padding-right:10px;
+}
+header .login-btn, header .language {
+    display: inline-block;
+    margin-left: 14px;
+}
+.headerwithoutsearch.headerbg .searchfrom {
+    margin-left: -35px;
+}
+header .searchfrom {
+    margin-left: -35px;
+}
+.product-info .product-detail ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.product-info .product-detail ul li::after {
+    right: -20px;
+}
+.product-list-box .product-menu ul li a {
+    font-size: 12px;
+}
+.product-list-box .selection .selection-tick {
+    float: left;
+    width: 25px;
+}
+.product-list-box .selection .name-price-box {
+width: 90%;
+margin-left: 3%;
+}
+.extraselection .btn-box a {
+    font-size: 16px;
+    padding: 8px 19px;
+}
+.extraselection .count {
+    padding: 7px 19px;
+    font-size: 16px;
+}
+.extraselection .count span:first-child {
+    left: -10px;
+}
+.extraselection .count span:last-child {
+    right: -10px;
+}
+.back-btn {
+    font-size: 16px;
+}
+.product-list-box .checkout .box .right-text {
+    width: 130px;
+}
+.riderbody .feature-1 .head .name {
+    font-size: 27px;
+}
+
+.riderbody .feature-1 .logo {
+    width: 100px;
+    position: relative;
+    top: 30px;
+}
+.riderbody .feature-1 .img {
+    top: -110px;
+}
+}
+/* Ipads (portrait and landscape) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.howitwork h2 {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.termandconditions .body .col-md-3 {
+    padding-left: 80px;
+}
+.riderbody.merchantbody .signupdetail .smalllogo {
+    right: -45%;
+}
+.riderbody.merchantbody .feature-2 .name {
+
+    margin-left: 120px;
+}
+.riderbody.merchantbody .feature-2 .image {
+    right: -5px;
+}
+.riderbody.merchantbody .feature-3 {
+    background-position: center center;
+    background-size: 161%;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+.riderbody.merchantbody  .feature-3 .box {
+    top: 40px;
+}
+.riderbody.merchantbody .feature-2 {
+    margin-top: 120px;
+}
+.foundation .feature-2 ul li {
+    width: 50%;
+}
+.foundation .help .right {
+
+    padding-left: 55px;
+	padding-bottom:60px;
+	padding-top:30px;
+}
+.foundation .help .right form {
+    width: 275px;
+}
+.foundation .help .image {
+    width: 79%;
+    left: -27%;
+}
+.foundation .help .right .title {
+    font-size: 24px;
+}
+.press .top-news .box .info .title {
+    font-size: 11px;
+}
+.career .about .left p {
+    font-size: 12px;
+}
+.career .about .left {
+    padding-right: 85px;
+	padding-top:65px;
+}
+.career .about .right {
+    width: 400px;
+    top: 183px;
+}
+.career .meethr p {
+    font-size: 14px;
+}
+.career .meethr .logo {
+    width: 80px;
+    margin-top: 70px;
+}
+.career .howwehire ul::before {
+    width: 470px;
+    margin-left: 119px;
+}
+.career .howwehire ul li .name {
+    font-size: 16px;
+}
+.career .howwehire ul li p {
+    padding-right: 50px;
+}
+.rewardpoint .box {
+width: 140px;
+height: 95px;
+margin-right: 15px;
+}
+.rewardpoint .box .pt {
+    font-size: 12px;
+}
+.rewardpoint .image {
+	width: 170px;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	margin-left: 55px;
+}
+.rewardpoint .box.thirdbox::before {
+	z-index:-9;
+}
+.rewardpoint .box.thirdbox::after {
+    top: 91px;
+}
+.rewardpoint .box.thirdbox {
+    margin-right: 0px;
+}
+.riderbody .signupform .image {
+    width: 90%;
+}
+.riderbody .signupform .title {
+    font-size: 26px;
+}
+.riderbody .signupdetail .flow .head {
+    margin-left: 10px;
+    margin-top: 58px;
+}
+.riderbody .feature-1 .logo {
+    width: 50px;
+    right: 25px;
+    position: absolute;
+}
+.riderbody .feature-1 .col-md-3
+{
+	padding-right:0px;
+}
+.riderbody .feature-1 .col-md-3 .head
+{
+	font-size:20px;
+	margin:0px;
+}
+.riderbody .feature-2 .content-text {
+    margin-right: 290px;
+    left: -300px;
+}
+
+.riderfaq .faqquation .box .text {
+    padding-right: 30px;
+	font-size:14px;
+}
+.riderfaq .answer p {
+    font-size: 12px;
+}
+.wallet-box {
+    width: 100%;
+}
+.width-550-box {
+width:100%;
+}
+.payment-method .payment-icon a {
+    width: 55px;
+    display: inline-block;
+}
+.payment-method .payment-icon {
+    top: 30px;
+}
+.profile-box ul {
+	margin-right:150px;
+}
+.profile-box ul li{
+	margin-left:0px;
+margin-right: 0px;
+width: 48%;
+margin-bottom: 10px;
+}
+.product-list-box .checkout .box .right-text {
+    width: 530px;
+}
+.checkout-process {
+    width: 550px;
+    margin-left: 100px;
+}
+header .searchfrom {
+padding-top: 19px;
+padding-bottom: 19px;
+    margin-right: -54px;
+}
+ header .searchfrom input::placeholder {
+         color: transparent;
+    }
+header .searchfrom input {
+    height: 50px;
+}
+header .searchfrom button {
+    height: 40px;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0px 20px;
+}
+header .searchfrom .searchicon {
+top: 16px;
+font-size: 14px;
+}
+header .searchfrom .filter {
+top: 14px;
+right: 105px;
+width: 18px;
+}
+.homesearch h1 {
+    margin-left: 80px;
+}
+.homesearch .searchfrom {
+    margin-left: 80px;
+}
+.slider.outside .owl-prev {
+    left: -40px;
+}
+.slider.outside .owl-next {
+    right: -40px;
+}
+.recent-order .image-box .info ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+	float:right;
+	padding-right:10px;
+}
+.funfacts .logo {
+    width: 84%;
+    margin: auto;
+    margin-top: 75px;
+}
+.funfacts .fact-box .label {
+    font-size: 17px;
+}
+.product-info .product-detail ul {
+    margin-top: 20px;
+}
+.product-info .product-detail ul li .text {
+    font-size: 16px;
+}
+.product-info .product-detail ul li .label {
+    font-size: 12px;
+}
+.product-info .product-detail ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.product-info .product-detail ul li::after {
+    right: -15px;
+}
+.back-btn {
+    font-size: 16px;
+}
+.extraselection .count {
+    padding: 7px 19px;
+    font-size: 16px;
+}
+.extraselection .count span:first-child {
+    left: -9px;
+}
+.extraselection .count span:last-child {
+    right: -9px;
+}
+.extraselection .btn-box a {
+    font-size: 16px;
+    padding: 8px 19px;
+}
+.product-list-box .selection .name-price-box {
+    width: 90%;
+    margin-left: 5%;
+}
+
+	footer .widget
+{
+	margin-bottom:30px;
+}	
+}
+/* large mobile (portrait and landscape) ----------- */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	
+
+	header .logo {
+    width: 90px;
+    margin: auto;
+}
+.termandconditions .body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.termandconditions .body .col-md-3 {
+    padding-left: 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+header .desktop
+{
+	display:none;
+}
+header .mobile
+{
+	display:block;
+}
+header .mobile .menu-btn
+{
+	width:25px;
+	line-height:80px;
+	display:inline-block;
+	cursor:pointer;
+}
+header .mobile .search-btn
+{
+	width:25px;
+	line-height:80px;
+	display:inline-block;
+	cursor:pointer;
+	margin-right:15px;
+}
+header .mobile .doc-btn
+{
+	width:25px;
+	line-height:80px;
+	display:inline-block;
+	cursor:pointer;
+}
+.header-show-search .searchfrom {
+    opacity: 0;
+    z-index: -9;
+}
+.howitwork h2 {
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+.head .name br {
+    display: none;
+}
+.head .bgicon {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -21px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    z-index: -9;
+}
+.product-info .product-image {
+    margin-bottom: 30px;
+}
+.product-info .product-detail ul {
+    margin-top: 30px;
+}
+.product-info .product-detail ul li .text {
+    font-size: 20px;
+}
+.product-list-box .product-box ul li {
+    margin-right: 5px;
+}
+.product-list-box .selection .name-price-box {
+width: 84%;
+margin-left: 7%;
+}
+.back-btn {
+    font-size: 14px;
+    padding: 7px 15px;
+}
+.extraselection .btn-box {
+    margin-left: 0px;
+    margin-top: 25px;
+}
+.product-info .product-detail ul li .label {
+    font-size: 14px;
+}
+	.homesearch h1 {
+    width: 100%;
+    font-size: 30px;
+	margin-left: 0px;
+	}
+	.homesearch .searchfrom {
+    width: 100%;
+	margin-left: 0px;
+    }
+	.slider.outside .owl-prev {
+    left: -35px;
+}
+.slider.outside .owl-next {
+    right: -35px;
+}
+	.funfacts {
+    background-image: url(../images/funfactsbg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f7f8fa;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.funfacts .fact-box .label {
+    font-size: 14px;
+}
+.funfacts .fact-box .count {
+    font-size: 30px;
+}
+.funfacts .logo {
+	width:90%;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+	footer .widget
+{
+	margin-bottom:30px;
+}
+	}
+/* mobiles (landscape and portrait) */
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+	.authpages .form-box {
+    margin: auto;
+}
+.termandconditions .body .col-md-3 {
+    padding-left: 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.termandconditions .body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.riderheader {
+    height: 85px;
+}
+header .mobile .menu-btn
+{
+	width:20px;
+	line-height:80px;
+	display:inline-block;
+	cursor:pointer;
+}
+header .mobile .search-btn
+{
+	width:20px;
+	line-height:80px;
+	display:inline-block;
+	cursor:pointer;
+	margin-right:15px;
+}
+header .mobile .doc-btn
+{
+	width:20px;
+	line-height:80px;
+	display:inline-block;
+	cursor:pointer;
+}
+header .desktop
+{
+	display:none;
+}
+header .mobile
+{
+	display:block;
+}
+.header-show-search .searchfrom {
+    opacity: 0;
+    z-index: -9;
+}
+.authpages
+{
+	padding-top:190px !important;
+}
+header
+{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+header .logo {
+    width:75px;
+	margin:auto;
+}
+header .searchfrom input {
+    height: 50px;
+}
+ header .searchfrom input::placeholder {
+         color: transparent;
+    }
+header .searchfrom .searchicon {
+    top: 16px;
+    font-size: 14px;
+}	
+header .searchfrom button {
+    height: 40px;
+    font-size: 14px;
+    line-height: 24px;
+}
+header .searchfrom .filter {
+    width: 20px;
+    top: 14px;
+    right: 126px;
+}
+header .btn-box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+	.headerwithoutsearch .logo
+	{
+		width:75px;
+		margin:auto
+	}
+	.headerwithoutsearch .col-1
+	{
+		display:none;
+	}
+header .login-btn, header .language {
+    display: inline-block;
+    margin-left: 0px;
+}
+header .login-btn
+{
+	margin-right:5px;
+}
+header .login-btn a {
+    font-size: 11px;
+    margin-left: -25px;
+    padding: 0px;
+    height: 35px;
+    display: inline-block;
+    line-height: 32px;
+    padding-left: 30px;
+    padding-right: 12px;
+}
+header .login-btn a .icon {
+    width: 12px;
+    position: absolute;
+    top: 11px;
+    left: 14px;
+    height: 12px;
+}
+header .language .flag  {
+    position: relative;
+    z-index: 99;
+    top: -2px;
+    margin-right: -4px;
+	width:30px;
+    display:inline-block;
+}
+header .language .white-bg {
+    font-size: 11px;
+}
+header .language .flag img
+{
+	width:100%;
+
+}
+.product-info .product-detail ul {
+	margin-top:15px;
+	margin-bottom:30px;
+}
+.product-info .product-detail ul li {
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.product-info .product-detail ul li:first-child
+{
+	width:30%;
+}
+.product-info .product-detail ul li:nth-child(2)
+{
+	width:40%;
+}
+.product-info .product-detail ul li:last-child
+{
+	width:30%;
+}
+.product-info .product-detail ul li::after {
+    right: 0px;
+    margin-right: 20%;
+}
+.extraselection .back-btn {
+    font-size: 14px;
+    padding: 7px 15px;
+}
+.extraselection .qty-text {
+    font-size: 12px;
+}
+.extraselection .btn-box a {
+font-size: 14px;
+padding: 8px 15px;
+top: -1px;
+position: relative;
+}
+.extraselection .btn-box a .icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.extraselection .col-10
+{
+	text-align:right;
+}
+.extraselection .count {
+    padding: 7px 12px;
+    font-size: 14px;
+}
+.extraselection .count span:first-child {
+    left: -5px;
+}
+.extraselection .count span:last-child {
+    right: -5px;
+}
+.extraselection .back-btn span
+{
+	display:none;
+}
+.product-list-box .checkout {
+    background: #f1f0f6;
+    padding: 10px 25px;
+    margin-top: 25px;
+}
+.product-list-box .product-menu ul {
+    text-align: left;
+    margin-top: 10px;
+}
+.product-list-box .product-menu
+{
+	overflow-x:scroll;
+}
+.product-list-box .product-menu ul
+{
+	width:2500px;
+	margin-top:0px;
+}
+.product-list-box .product-menu ul li a {
+    padding-right: 0px;
+}
+.product-list-box .product-menu ul li {
+    margin-bottom: 25px;
+    display: inline-block;
+    margin-right: 15px;
+	position:relative;
+}
+.product-list-box .product-menu ul li a.active::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    background: #a6211a;
+    right: 0px;
+	left:0px;
+    z-index: 9;
+    margin-top: 0px;
+	bottom:-21px;
+}
+.product-list-box .menu-title {
+    margin-top: 15px;
+}
+.product-list-box .product-box .col-3:first-child,
+.product-list-box .product-box .col-6
+{
+	padding-right:0px;
+}
+.product-list-box .product-box ul li {
+	margin-right:5px;
+}
+.product-list-box .product-menu ul::after {
+    content: "";
+    width:100%;
+    height: 1px;
+    top: 40px;
+    right: 0px;
+	left:0px;
+}
+.product-list-box .selection .name-price-box {
+    width: 75%;
+    margin-left: 10%;
+}
+.product-info .product-detail ul li .text {
+    font-size: 16px;
+}
+.product-info .product-detail ul li .label {
+
+    font-size: 12px;
+}
+.product-info .product-detail .view-btn {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    text-align: right;
+    padding-bottom: 30px;
+}
+.product-info .product-image {
+    border-radius: 0px;
+    border: 0px solid #FFF;
+    overflow: hidden;
+    box-shadow: 0px 0px 0px 0px #CCC;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+.product-info {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.homesearch
+{
+	text-align:center;
+	height:530px;
+}
+.homesearch h1 {
+    width: 100%;
+	margin-top:50px;
+	font-size:27px;
+	margin-left: 0px;
+}
+.homesearch .searchfrom {
+    width: 100%;
+	margin-bottom:-100px;
+	margin-left: 0px;
+}
+.homesearch .searchfrom input::placeholder {
+         color: transparent;
+    }
+	.image-box .info ul {
+    float:right;
+}
+.howitwork h2 {
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+.head .name br
+{
+	display:none;
+}
+.head .bgicon {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -21px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    z-index: -9;
+}
+
+.slider.outside .owl-prev {
+    left: 0px;
+}
+.our-restaurents .col-12 .image-box
+{
+	margin-bottom:30px;
+}
+.our-restaurents .col-12:last-child .image-box
+{
+	margin-bottom:0px;
+}
+
+.slider.outside .owl-nav {
+
+    display: none;
+
+}
+.funfacts {
+    background-image: url(../images/funfactsbg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f7f8fa;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.funfacts .fact-box .label {
+    font-size: 10px;
+}
+.funfacts .fact-box .count {
+    font-size: 28px;
+}
+.funfacts .logo {
+width: 90%;
+margin: auto;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.product-detail
+{
+	margin-top:20px;
+}
+
+footer .widget
+{
+	margin-bottom:30px;
+}
+}

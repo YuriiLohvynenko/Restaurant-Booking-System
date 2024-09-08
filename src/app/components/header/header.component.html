@@ -1,0 +1,247 @@
+<header class="header" id="header">
+<div class="container mobile">
+<div class="row">
+<div class="col-4 col-sm-3">
+<a class="menu-btn" (click)="openmenu()"><img src="../../../assets/images/icon-openmenu-red.svg" class="w-100"/></a>
+</div>
+<div class="col-4 col-sm-6">
+<div class="logo">
+<a href="/"><img src="../../../assets/images/logo.png" class="w-100" /></a>
+</div>
+</div>
+<div class="col-4 col-sm-3 text-right">
+<a class="search-btn"><img src="../../../assets/images/icon-search-red.svg" class="w-100"/></a>
+<a class="doc-btn"><img src="../../../assets/images/icon-docmenu-red.svg" class="w-100"/></a>
+</div>
+</div>
+<div id="mobilesidebar" class="menu-sidebar">
+<a class="close-btn" (click)="closemenu()"><i class="fas fa-times"></i></a>
+<div class="logo"><img src="../../../assets/images/logo.png" class="w-100"/></div>
+<div class="lang">
+<a class="active">TH</a><a>EN</a>
+</div>
+<div class="menu">
+<ul>
+<li><a href="#" class="active">Home</a></li>
+<li><a href="#">My Profile</a></li>
+<li><a href="#">My Order</a></li>
+<li><a href="#">Refer a Friend</a></li>
+<li><a href="#">Order Tracking</a></li>
+</ul>
+</div>
+<div class="auth-btn"><a href="#">Logout</a></div>
+</div>
+</div>
+<div class="container desktop">
+<div class="row">
+<div class="col-4 col-sm-9 col-md-2 col-lg-2 col-xl-2">
+<div class="logo">
+<img src="../../../assets/images/logo.png" class="w-100" />
+</div>
+</div>
+<div class="col-12 col-md-4 col-lg-6 col-xl-6 order-3 order-md-2">
+<div class="searchfrom">
+<form>
+<div class="searchicon"><i class="fa fa-search"></i></div>
+<input type="text" placeholder="Search Food or Restaurant..."/>
+<button type="submit">Search</button>
+<div class="filter" (click)="filteropen()"><img src="../../../assets/images/filter.svg" class="w-100 active-hide"/>
+<img src="../../../assets/images/filter-red.svg" class="w-100 active-show"/>
+</div>
+</form>
+<div class="filter-box">
+<div class="top">
+<div class="row">
+<div class="col-8"><div class="title">Filter</div></div>
+
+<div class="col-4 text-right"><a href="#">x Clear</a></div>
+</div>
+</div>
+<div class="bottom">
+<div class="box">
+<div class="lable">Budget</div>
+<div class="row">
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="paymentmethod" value="$0 to $100" checked="checked">
+<span class="checkmark"></span>
+</div>
+<span class="lable">$0 to $100</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="paymentmethod" value="$100 to $1000">
+<span class="checkmark"></span>
+</div>
+<span class="lable">$100 to $1000</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="paymentmethod" value="$1000 to $5000">
+<span class="checkmark"></span>
+</div>
+<span class="lable">$1000 to $5000</span>
+</div></div>
+</div>
+</div>
+<div class="box">
+<div class="lable">offers</div>
+<div class="row">
+<div class="col-4 pr-0"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="offers" value="Accepts Vouchers" checked="checked">
+<span class="checkmark"></span>
+</div>
+<span class="lable">Accepts Vouchers</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="offers" value="Free delivery">
+<span class="checkmark"></span>
+</div>
+<span class="lable">Free delivery</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="offers" value="Has Discount">
+<span class="checkmark"></span>
+</div>
+<span class="lable">Has Discount</span>
+</div></div>
+</div>
+</div>
+<div class="box">
+<div class="lable">CUISINES</div>
+<div class="row">
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="CUISINES" value="American">
+<span class="checkmark"></span>
+</div>
+<span class="lable">American</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="CUISINES" value="Halal">
+<span class="checkmark"></span>
+</div>
+<span class="lable">Halal</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="CUISINES" value="Sandwiches">
+<span class="checkmark"></span>
+</div>
+<span class="lable">Sandwiches</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="CUISINES" value="American">
+<span class="checkmark"></span>
+</div>
+<span class="lable">American</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="CUISINES" value="Halal">
+<span class="checkmark"></span>
+</div>
+<span class="lable">Halal</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="CUISINES" value="Sandwiches">
+<span class="checkmark"></span>
+</div>
+<span class="lable">Sandwiches</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="CUISINES" value="American">
+<span class="checkmark"></span>
+</div>
+<span class="lable">American</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="CUISINES" value="Halal">
+<span class="checkmark"></span>
+</div>
+<span class="lable">Halal</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="CUISINES" value="Sandwiches">
+<span class="checkmark"></span>
+</div>
+<span class="lable">Sandwiches</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="CUISINES" value="American">
+<span class="checkmark"></span>
+</div>
+<span class="lable">American</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="CUISINES" value="Halal">
+<span class="checkmark"></span>
+</div>
+<span class="lable">Halal</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="CUISINES" value="Sandwiches">
+<span class="checkmark"></span>
+</div>
+<span class="lable">Sandwiches</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="CUISINES" value="American">
+<span class="checkmark"></span>
+</div>
+<span class="lable">American</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="CUISINES" value="Halal">
+<span class="checkmark"></span>
+</div>
+<span class="lable">Halal</span>
+</div></div>
+<div class="col-4"> <div class="round-btn">
+<div class="selection-tick custom-radio">
+<input type="radio"  name="CUISINES" value="Sandwiches">
+<span class="checkmark"></span>
+</div>
+<span class="lable">Sandwiches</span>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-8 col-sm-3 col-md-6 col-lg-4 col-xl-4 order-2 order-md-3 text-right">
+<div class="btn-box">
+<div class="login-btn"><a href="#"> <div class="icon"><img src="../../../assets/images/login-user.svg" class="w-100 hover-hide"/><img src="../../../assets/images/login-user-hover.svg" class="w-100 hover-show"/></div> Login / Register</a></div>
+<div class="language">
+<div class="dropdown show">
+  <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="flag"><img src="../../../assets/images/ukflag.png"/></span> <span class="white-bg">ENG <span class="downicon"><img src="../../../assets/images/downarrow.png"/></span></span>
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
